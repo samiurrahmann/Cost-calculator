@@ -22,7 +22,7 @@ const calculateExpense = () => {
       parseInt(food) + parseInt(rent) + parseInt(clothes);
   
     // calculate balance
-    const balance = parseInt(income.value) - expense;
+    const balance = parseInt(income) - expense;
     //   validate income
     if (expense > income.value) {
       alert("Expenses cannot be more than income");
